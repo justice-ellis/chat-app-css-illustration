@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* css variables */
+
+:root { 
+  --white: hsl(0, 0%, 100%);
+  --app-bg: hsl(270, 20%, 96%);
+  --para-color: hsl(270, 7%, 64%);
+  --main-heading: hsl(271, 36%, 24%);
+  --sub-heading: hsl(276, 100%, 81%);
+  --left-chat: hsl(276, 55%, 52%);
+  --right-chat: hsl(271, 15%, 43%);
+  --radio-button-outline: hsl(289, 100%, 72%);
+  --submit-bg: hsl(271, 36%, 24%);
+  --placeholder-text: hsl(206, 6%, 79%);
+  --light-magenta: hsl(293, 100%, 63%);
+  --light-violet: hsl(264, 100%, 61%);
+}
