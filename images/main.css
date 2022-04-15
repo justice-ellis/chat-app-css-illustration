@@ -7,7 +7,7 @@
 
 /* css variables */
 
-:root {
+:root { 
   --white: hsl(0, 0%, 100%);
   --app-bg: hsl(270, 20%, 96%);
   --para-color: hsl(270, 7%, 64%);
