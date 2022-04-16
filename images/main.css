@@ -227,3 +227,34 @@ body {
 .container > .app > .mobile > .screen > .chat .left:nth-child(2) {
   margin-bottom: 15px;
 }
+
+
+.container > .app > .mobile > .screen > .chat .right {
+  margin-left: auto;
+  color: var(--right-chat);
+  border-bottom-right-radius: 0;
+  background-color: var(--white);
+}
+
+.container > .app > .mobile > .screen > .chat .right:nth-child(5) {
+  margin-bottom: 15px;
+}
+
+.container > .app > .mobile > .screen > .chat .photos {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.container > .app > .mobile > .screen > .chat .photos > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
