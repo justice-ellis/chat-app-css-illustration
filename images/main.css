@@ -40,3 +40,34 @@ body {
   overflow: hidden;
   position: relative;
 }
+
+@media only screen and (max-width: 575px) {
+  .container {
+    padding: 20px 35px 0;
+  }
+}
+
+@media  only screen and (min-width: 576px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+  }
+}
+
+.container::before {
+  top: -220px;
+  left: calc(-100% - -17.5px);
+  border-radius: 0 0 70% 70%;
+  background: var(--light-violet);
+}
+
+
+.container::after {
+  bottom: -220px;
+  right: calc(-100% - -17.5px);
+  border-radius: 70% 70% 0 0;
+  background-color: #f7f5fa;
+}
