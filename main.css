@@ -319,3 +319,8 @@ body {
   border-radius: 50%;
   outline: 1px solid var(--radio-button-outline);
 }
+
+.container > .app > .mobile > .screen > .chat .offer > label > .price {
+  font-size: 12px;
+  font-weight: bold;
+}
