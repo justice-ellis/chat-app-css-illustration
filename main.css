@@ -414,3 +414,8 @@ body {
   }
 }
 
+.container > .app > .text > p {
+  font-size: 16;
+  line-height: 1.6;
+  color: var(--para-color);
+} 
