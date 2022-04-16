@@ -280,3 +280,14 @@ body {
   margin: 0;
   opacity: 0;
 }
+
+.container > .app > .mobile > .screen > .chat .offer > input[type="radio"]:checked + label::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -15px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--light-violet);
+}
