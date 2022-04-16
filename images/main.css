@@ -132,3 +132,35 @@ body {
   border-radius: 0 0 50px 50px;
   background-color: var(--white);
 }
+
+.container > .app > .mobile > .screen > .header {
+  height: 65px;
+  padding: 25px 15px 8px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: -webkit-gradient(linear, left top, right top, from(var(--light-violet)), to(var(--light-magenta)));
+  background: linear-gradient(to right, var(--light-violet), var(--light-magenta));
+}
+
+.container > .app > .mobile > .screen > .header > .angle-left {
+  color: white;
+  margin-right: 5px;
+}
+
+.container > .app > .mobile > .screen > .header > .person {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
