@@ -402,3 +402,9 @@ body {
   }
 }
 
+.container > .app > .text > h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: var(--main-heading);
+}
+
