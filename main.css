@@ -390,3 +390,9 @@ body {
   background-color: var(--submit-bg);
 }
 
+@media (max-width: 575px) {
+  .container > .app > .text {
+    text-align: center;
+  }
+}
+
