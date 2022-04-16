@@ -396,3 +396,9 @@ body {
   }
 }
 
+@media (min-width: 576px) {
+  .container > .app > .text {
+    width: calc(100% - (250px + 125px));
+  }
+}
+
