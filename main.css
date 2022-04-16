@@ -258,3 +258,21 @@ body {
   height: 40px;
   border-radius: 10px;
 }
+
+.container > .app > .mobile > .screen > .chat .offer {
+  width: 75%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--white);
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  background: -webkit-gradient(linear, left top, right top, from(var(--light-magenta)), to(var(--light-violet)));
+  background: linear-gradient(to right, var(--light-magenta), var(--light-violet));
+}
+
