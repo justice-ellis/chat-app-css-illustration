@@ -407,3 +407,10 @@ body {
   margin-bottom: 25px;
   color: var(--main-heading);
 }
+
+@media (min-width: 576px) {
+  .container > .app > .text > h1 {
+    margin-top: 0;
+  }
+}
+
