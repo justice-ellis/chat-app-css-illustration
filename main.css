@@ -351,3 +351,18 @@ body {
   background-color: var(--white);
 }
 
+.container > .app > .mobile > .screen > .chat > .type-message input[type="text"]::-webkit-input-placeholder {
+  color: var(--placeholder-text);
+}
+
+.container > .app > .mobile > .screen > .chat > .type-message input[type="text"]:-ms-input-placeholder {
+  color: var(--placeholder-text);
+}
+
+.container > .app > .mobile > .screen > .chat > .type-message input[type="text"]::-ms-input-placeholder {
+  color: var(--placeholder-text);
+}
+
+.container > .app > .mobile > .screen > .chat > .type-message input[type="text"]::placeholder {
+  color: var(--placeholder-text);
+}
