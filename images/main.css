@@ -71,3 +71,31 @@ body {
   border-radius: 70% 70% 0 0;
   background-color: #f7f5fa;
 }
+
+/* media query for tablet */
+
+@media only screen and (min-width: 576px) {
+  .container > .app {
+    width: 820px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    gap: 125px;
+  }
+
+  .container::after {
+    bottom: 0;
+    right: -50px;
+    border-radius: 400px 400px 0 0;
+  }
+  .container::before {
+    top: 0;
+    left: -50px;
+    border-radius: 0 0 400px 400px;
+  }
+
+  
+}
