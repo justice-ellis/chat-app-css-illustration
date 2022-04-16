@@ -331,3 +331,14 @@ body {
   margin-top: 15px;
   position: relative;
 }
+
+.container > .app > .mobile > .screen > .chat > .type-message input {
+  border: none;
+  display: block;
+}
+
+.container > .app > .mobile > .screen > .chat > .type-message input:focus {
+  outline: none;
+}
+
+
