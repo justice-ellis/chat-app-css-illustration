@@ -99,3 +99,36 @@ body {
 
   
 }
+
+
+.container > .app > .mobile {
+  width: 250px;
+  height: 505px;
+  padding: 10px;
+  margin: 0 auto;
+  cursor: default;
+  border-radius: 30px;
+  background-color: var(--white);
+  -webkit-box-shadow: 5px 8px 30px rgba(0, 0, 0, 0.3);
+          box-shadow: 5px 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.container > .app > .mobile > .screen {
+  position: relative;
+  overflow: hidden;
+  border-radius: inherit;
+  background-color: var(--app-bg);
+}
+
+.container > .app > .mobile > .screen::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 129px;
+  height: 19px;
+  border-radius: 0 0 50px 50px;
+  background-color: var(--white);
+}
