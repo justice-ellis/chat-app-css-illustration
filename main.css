@@ -275,3 +275,8 @@ body {
   background: -webkit-gradient(linear, left top, right top, from(var(--light-magenta)), to(var(--light-violet)));
   background: linear-gradient(to right, var(--light-magenta), var(--light-violet));
 }
+
+.container > .app > .mobile > .screen > .chat .offer > input[type="radio"] {
+  margin: 0;
+  opacity: 0;
+}
