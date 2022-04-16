@@ -307,3 +307,15 @@ body {
           justify-content: space-between;
   position: relative;
 }
+
+.container > .app > .mobile > .screen > .chat .offer > label::before {
+  content: "";
+  position: absolute;
+  top: 2.9px;
+  left: -17px;
+  width: 11px;
+  height: 11px;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: 1px solid var(--radio-button-outline);
+}
