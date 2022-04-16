@@ -202,3 +202,28 @@ body {
 .container > .app > .mobile > .screen > .header > .dots span:not(:last-child) {
   margin-bottom: 2px;
 }
+
+
+.container > .app > .mobile > .screen > .chat {
+  padding: 10px;
+}
+
+.container > .app > .mobile > .screen > .chat .message {
+  width: 55%;
+  font-size: 8px;
+  margin: 0 0 5px;
+  line-height: 1.4;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+
+.container > .app > .mobile > .screen > .chat .left {
+  margin-right: auto;
+  color: var(--left-chat);
+  border-bottom-left-radius: 0;
+  background-color: #eee6f4;
+}
+
+.container > .app > .mobile > .screen > .chat .left:nth-child(2) {
+  margin-bottom: 15px;
+}
