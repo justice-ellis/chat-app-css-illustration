@@ -253,6 +253,24 @@ body {
   background-color: transparent;
 }
 
+/* styling for hover-state */
+
+.photo:hover{
+  transform: scale(1.19);
+}
+
+.avatar:hover{
+  transform: scale(1.19);
+}
+
+
+.sub-buttom:hover{
+  transform: scale(1.19);
+  color : #FF77FF;
+}
+
+/* styling for hover-state */
+
 .container > .app > .mobile > .screen > .chat .photos > img {
   width: 40px;
   height: 40px;
