@@ -55,7 +55,7 @@ Future work on this project will seek to integrate javascript libraries and othe
 - Github -- [Justice Nana Ellis](https://github.com/justice-ellis)
 - Email --- [justice.ellis@amalitech.org](justice.ellis@amalitech.org)
 
-- Github -- [Emmanuel Odotei](https://github.com/emmanuel-odotei)
+- Github -- [Emmanuel Odoi Odotei](https://github.com/emmanuel-odotei)
 - Email --- [emmanuel.odotei@amalitech.org](emmanuel.odotei@amalitech.org)
 
 
@@ -63,5 +63,5 @@ Future work on this project will seek to integrate javascript libraries and othe
 
 ## Acknowledgments
 
-Thanks be to God Almighty for the gift of Life. Our sincere appreciation the entire Amalitech Training Team especially Mr. Salami Suleiman for this timely enlightening project. We appreciate our abled colleques who supported us in any way during the project. Thank you.
+Thanks be to God Almighty for the gift of Life. Our sincere appreciation to the entire Amalitech Training Team especially Mr. Salami Suleiman for this timely enlightening project. We appreciate our abled colleagues who supported us in any way during the project. Thank you.
 
